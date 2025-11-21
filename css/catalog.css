@@ -21,7 +21,7 @@
 
 .style-item:hover {
     transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4); 
+    box-shadow: 0 5px 15px var(--color-darker-bg); 
 }
 
 .item-image-wrapper {
@@ -53,7 +53,7 @@
     padding: 15%; 
     box-sizing: border-box; 
     
-    background-color: rgba(244, 195, 20, 0.95);
+    background-color: var(--color-accent-yellow);
     color: var(--color-dark-bg);
     display: flex;
     align-items: center;

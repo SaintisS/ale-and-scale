@@ -8,6 +8,7 @@
 
 :root {
     --color-dark-bg: #1E1E1E;
+    --color-darker-bg: #000000;
     --color-light-bg: #EEEEEE; 
     --color-dred-bg: #ff000027;
     --color-yellow-bg: #ffff00;
@@ -19,6 +20,7 @@
     --color-border-red: #ff3b3b;
     --color-border-green: #00ff08;
     --color-border-yellow: #ffff00;
+    --color-border-gray: #ffffff1a;
 
     
     --header-height: 70px;

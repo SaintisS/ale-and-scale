@@ -8,7 +8,8 @@
 </head>
 <body>
    <header>
-      <div class="container">
+      <div class="menu-container">
+        <img src="images/logo.webp" alt="Логотип сайту" width="50" height="50">
         <input type="checkbox" id="menu-toggle">
         <label for="menu-toggle" class="burger">
           <span></span>
@@ -28,14 +29,18 @@
         <div class="form-container">
             <h2>Реєстрація</h2>
             <form>
-                <label>Ім'я користувача</label><br>
-                <input type="text" id="username" name="username" required><br><br>
-                <label>Електронна пошта</label><br>
-                <input type="email" id="email" name="email" required><br><br>
-                <label>Пароль</label><br>
-                <input type="password" id="password" name="password" required><br><br>
-                <label for="conf_password">Підтвердіть пароль</label><br>
-                <input type="password" id="conf_password" name="conf_password" required><br><br>
+                <label>Ім'я користувача</label>
+                <input type="text" id="username" name="username" required minlength="3">
+                <p class="error-message">Введіть мінімум 3 символи</p>
+                <label>Електронна пошта</label>
+                <input type="email" id="email" name="email" required pattern=".*@.*">
+                <p class="error-message">Введіть коректний email</p>
+                <label>Пароль</label>
+                <input type="password" id="password" name="password" required minlength="6">
+                <p class="error-message">Пароль має містити мінімум 6 символів</p>
+                <label for="conf_password">Підтвердіть пароль</label>
+                <input type="password" id="conf_password" name="conf_password" required minlength="6">
+                <p class="error-message">Пароль має містити мінімум 6 символів</p>
                 <input type="submit" value="Зареєструватися">
             </form>
         </div>
