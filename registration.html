@@ -4,31 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ale&Scale</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <nav>
-           <img src="images/logo.png" alt="Логотип сайту" width="50" height="50">
+   <header>
+      <div class="container">
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+          <nav class="nav-menu">
             <p>Ale&Scale</p>
             <a href="index.html">Головна</a>
             <a href="catalog.html">Каталог</a>
-            <a href="#">Реєстрація</a>
+            <a href="registration.html">Реєстрація</a>
             <a href="profile.html">Вхід</a>
-        </nav>
+          </nav>
+      </div>
     </header>
     <main>
-        <h2>Реєстрація</h2>
-        <form>
-            <label>Ім'я користувача</label><br>
-            <input type="text" id="username" name="username" required><br><br>
-            <label>Електронна пошта</label><br>
-            <input type="email" id="email" name="email" required><br><br>
-            <label>Пароль</label><br>
-            <input type="password" id="password" name="password" required><br><br>
-            <label for="conf_password">Підтвердіть пароль</label><br>
-            <input type="password" id="conf_password" name="conf_password" required><br><br>
-            <input type="submit" value="Зареєструватися">
-        </form>
+        <div class="form-container">
+            <h2>Реєстрація</h2>
+            <form>
+                <label>Ім'я користувача</label><br>
+                <input type="text" id="username" name="username" required><br><br>
+                <label>Електронна пошта</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <label>Пароль</label><br>
+                <input type="password" id="password" name="password" required><br><br>
+                <label for="conf_password">Підтвердіть пароль</label><br>
+                <input type="password" id="conf_password" name="conf_password" required><br><br>
+                <input type="submit" value="Зареєструватися">
+            </form>
+        </div>
     </main>
     <footer>
         <h3>Ale&Scale</h3>

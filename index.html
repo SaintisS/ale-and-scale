@@ -1,44 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ale&Scale</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ale&Scale | Головна</title>
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <nav>
-           <img src="images/logo.png" alt="Логотип сайту" width="50" height="50">
+   <header>
+      <div class="container">
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+          <nav class="nav-menu">
             <p>Ale&Scale</p>
-            <a href="#">Головна</a>
+            <a href="index.html">Головна</a>
             <a href="catalog.html">Каталог</a>
             <a href="registration.html">Реєстрація</a>
-            <a href="profile.html">Вхід</a> 
-        </nav>
+            <a href="profile.html">Вхід</a>
+          </nav>
+      </div>
     </header>
-    <main>
+    <main class="home-page-layout">
         <div class="container">
             <div class="posts">
                 <div class="post">
-                    <img src="images/articles/about-craft-beer/art1.png" alt="Стаття 1" width="400" height="150">
-                    <h2><a href="about-craft-beer.html">Що таке крафтове пиво?</a></h2>
-                    <p>Дізнайтеся, чим крафтове пиво відрізняється від масового, чому його так цінують та як обирати унікальні смаки для себе.</p>
+                    <div class="post-image-wrapper">
+                        <img src="images/articles/about-craft-beer/art1.webp" alt="Стаття 1">
+                    </div>
+                <h2><a href="about-craft-beer.html">Що таке крафтове пиво?</a></h2>
+                <p>Дізнайтеся, чим крафтове пиво відрізняється від масового, чому його так цінують та як обирати унікальні смаки для себе.</p>
                 </div>
                 <div class="post">
-                    <img src="images/articles/about-beer/art1.png" alt="Стаття 2" width="400" height="150">
-                    <h2><a href="about-beer.html">Все про пиво</a></h2>
-                    <p>Дізнайтеся про різні види пива, його історію та цікаві факти про улюблений напій мільйонів.</p>
+                    <div class="post-image-wrapper">
+                <img src="images/articles/about-beer/art1.webp" alt="Стаття 2">
+                </div>
+                <h2><a href="about-beer.html">Все про пиво</a></h2>
+                <p>Дізнайтеся про різні види пива, його історію та цікаві факти про улюблений напій мільйонів.</p>
                 </div>
             </div>
-            <div class="about-us">
-                <h1>Наша місія</h1>
-                <p>Ласкаво просимо на Ale&Scale — простір для справжніх поціновувачів пива. Тут ми розповідаємо історії людей, пивоварень та громад, які формують серце незалежного пивоваріння. Ми підтримуємо невеликі незалежні пивоварні та запрошуємо вас разом із нами відкривати різноманіття смаків, традицій і пристрасті до пива. Досліджуйте світ Ale&Scale та відчуйте його унікальний смак!</p>
-            </div>
+        <div class="about-us">
+        <h1>Наша місія</h1>
+        <p>Ласкаво просимо на Ale&Scale — простір для справжніх поціновувачів пива. Тут ми розповідаємо історії людей, пивоварень та громад, які формують серце незалежного пивоваріння. Ми підтримуємо невеликі незалежні пивоварні та запрошуємо вас разом із нами відкривати різноманіття смаків, традицій і пристрасті до пива. Досліджуйте світ Ale&Scale та відчуйте його унікальний смак!</p>
+        </div>
         </div>
     </main>
     <footer>
-        <h3>Ale&Scale</h3>
-        <p>Ale&Scale написаний любителями пива для любителів пива. Коли ти тут — ти серед людей, яким небайдужі пивоварні та незалежність. Саме тому ми з гордістю носимо цей знак — і ти теж можеш.</p>
+    <h3>Ale&Scale</h3>
+    <p>Ale&Scale написаний любителями пива для любителів пива. Коли ти тут — ти серед людей, яким небайдужі пивоварні та незалежність. Саме тому ми з гордістю носимо цей знак — і ти теж можеш.</p>
     </footer>
 </body>
 </html>

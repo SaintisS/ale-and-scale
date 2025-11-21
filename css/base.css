@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Playfair+Display:wght@700&family=Train+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-dark-bg: #1E1E1E;
+    --color-light-bg: #EEEEEE; 
+    --color-dred-bg: #ff000027;
+    --color-yellow-bg: #ffff00;
+    --color-dgreen-bg: #00ff0022;
+    --color-accent-yellow: #F4C314;
+    --color-text-dark: #1E1E1E;
+    --color-text-light: #EEEEEE;
+    --color-text-red: #ff3b3b;
+    --color-border-red: #ff3b3b;
+    --color-border-green: #00ff08;
+    --color-border-yellow: #ffff00;
+
+    
+    --header-height: 70px;
+    --accent-zone-height: 150px; 
+    
+    --theme-main-bg: var(--color-dark-bg);
+    --theme-text-primary: var(--color-text-light);
+    --theme-accent-text: var(--color-text-dark); 
+    
+    --font-primary: 'Poppins', sans-serif;
+    --font-accent: 'Playfair Display', serif;
+    --font-logo: 'Train One', cursive;
+}
+
+body {
+    font-family: var(--font-primary);
+    background-color: var(--theme-main-bg); 
+    color: var(--theme-text-primary); 
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1; 
+    position: relative;
+    z-index: 6; 
+}
+
+h1 {
+    font-family: var(--font-accent);
+    font-size: 2.5em;
+    margin-bottom: 0.8em;
+    color: var(--color-accent-yellow); 
+    text-align: center;
+}
+h2 {
+    font-family: var(--font-primary);
+    font-weight: 600;
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+p {
+    margin-bottom: 1em;
+}
+a {
+    color: var(--theme-text-primary);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+a:hover {
+    color: var(--color-accent-yellow);
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+

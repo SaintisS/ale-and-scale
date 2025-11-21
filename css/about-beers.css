@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.container h1, .container p {
+    flex: 1;
+    padding: 3% 15% 3% 15%;
+}
+.container img {
+    flex: 1;
+    max-height: 400px;
+    width: 80%;
+    border: 2px solid var(--color-border-yellow);
+    border-radius: 5px;
+}
