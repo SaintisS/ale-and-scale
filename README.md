@@ -3,7 +3,7 @@
 
 ## Викорситані технології:
 - HTML5
-- CSS
+- CSS3
 - Flexbox / Grid
 - Adaptive design
 - Images optimization
