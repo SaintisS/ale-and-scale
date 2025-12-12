@@ -15,8 +15,8 @@ main.home-page-layout {
     flex: 1 1 45%;
     min-width: 300px;
     text-align: center;
-    background-color: var(--color-light-bg);
-    color: var(--color-text-dark);
+    background-color: var(--color-dark-bg);  
+    color: var(--color-text-light);          
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 6px var(--color-darker-bg);
@@ -33,7 +33,7 @@ main.home-page-layout {
 }
 
 .post h2 a {
-    color: var(--color-text-dark);
+    color: var(--color-text-light);
 }
 
 .post h2 a:hover {
@@ -59,9 +59,26 @@ main.home-page-layout {
 .about-us {
     text-align: center;
     padding: 30px;
-    background-color: var(--color-light-bg);
-    color: var(--color-text-dark);
+    background-color: var(--color-dark-bg);
+    color: var(--color-text-light);
     border-radius: 8px;
     margin-bottom: 40px;
     box-shadow: 0 4px 6px var(--color-darker-bg);
+}
+
+.mission-btn {
+    background-color: transparent;
+    color: inherit;
+    border: 2px solid var(--color-accent-yellow);
+    padding: 10px 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: all 0.3s ease;       
+}
+
+.mission-btn:hover {
+    background-color: var(--color-accent-yellow);
+    color: #1E1E1E;
 }
