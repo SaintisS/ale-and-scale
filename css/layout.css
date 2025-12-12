@@ -25,6 +25,7 @@ nav {
     padding: 0 20px;
     height: 100%;
 }
+
 nav p {
     font-family: var(--font-logo);
     color: var(--color-accent-yellow);
@@ -155,7 +156,7 @@ footer {
 }
 
 .menu-container img {
-  background-color: var(--color-yellow-bg);
+  background-color: var(--color-accent-yellow);
   border-radius: 100%;
 }
 

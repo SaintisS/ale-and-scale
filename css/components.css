@@ -74,7 +74,7 @@ form input:invalid + .error-message {
 }
 
 nav img {
-    background-color: var(--color-yellow-bg);
+    background-color: var(--color-accent-yellow);
     border-radius: 100%;
 }
 
