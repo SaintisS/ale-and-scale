@@ -1,3 +1,10 @@
+document.addEventListener("DOMContentLoaded", function() {
+    const savedName = localStorage.getItem("saved_username");
+    if (savedName) {
+        document.getElementById("username").value = savedName;
+    }
+});
+
 document.querySelector("form").addEventListener("submit", function (event) {
     event.preventDefault();
 
@@ -42,6 +49,8 @@ document.querySelector("form").addEventListener("submit", function (event) {
     } else clearError(confPassword);
 
     if (!isValid) return;
+
+    localStorage.setItem("saved_username", username.value);
 
     console.log({
         username: username.value,
