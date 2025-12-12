@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ale&Scale</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <header>
+      <div class="menu-container">
+        <img src="images/logo.webp" alt="Логотип сайту" width="50" height="50">
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+          <nav class="nav-menu">
+            <p>Ale&Scale</p>
+            <a href="index.html">Головна</a>
+            <a href="catalog.html">Каталог</a>
+            <a href="registration.html">Реєстрація</a>
+            <a href="profile.html">Вхід</a>
+          </nav>
+      </div>
+    </header>
+    <main>
+        <div class="form-container">
+            <h2>Вхід</h2>
+            <form novalidate>
+                <label>Ім'я користувача</label>
+                <input type="text" id="username" name="username" required minlength="3">
+                <p class="error-message">Введіть мінімум 3 символи</p>
+                <label>Пароль</label>
+                <input type="password" id="password" name="password" required minlength="6">
+                <p class="error-message">Пароль має містити мінімум 6 символів</p>
+                <input type="submit" value="Увійти">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <h3>Ale&Scale</h3>
+        <p>Ale&Scale написаний любителями пива для любителів пива. Коли ти тут — ти серед людей, яким небайдужі пивоварні та незалежність. Саме тому ми з гордістю носимо цей знак — і ти теж можеш.</p>
+    </footer>
+    <script src="./js/main.js"></script>
+    <script src="./js/pages/profile.js" defer></script>
+</body>
+</html>
