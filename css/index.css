@@ -80,5 +80,5 @@ main.home-page-layout {
 
 .mission-btn:hover {
     background-color: var(--color-accent-yellow);
-    color: #1E1E1E;
+    color: var(--color-dark-bg);
 }

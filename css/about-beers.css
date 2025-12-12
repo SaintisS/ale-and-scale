@@ -12,6 +12,5 @@
     flex: 1;
     max-height: 400px;
     width: 80%;
-    border: 2px solid var(--color-border-yellow);
     border-radius: 5px;
 }
